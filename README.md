@@ -11,3 +11,13 @@
       kubernetes:
         enabled: false
   ```
+
+### Dependencies:
+
+```
+extra["springCloudVersion"] = "2020.0.3"
+
+dependencies {
+  implementation("org.springframework.cloud:spring-cloud-kubernetes-fabric8-config")
+}
+```    
